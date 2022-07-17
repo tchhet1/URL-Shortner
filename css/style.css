@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px 50px;
+    color: #97969C;
+    font-weight: bold;
+}
+
+header img {
+    
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 8;
+}
+
+
+
+.nav-left, .nav-right {
+    display: inline;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    padding: 5px 12px;
+}
+
+header nav ul li button {
+    background-color: #30CED1;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    
+    
+}
+
+
+
